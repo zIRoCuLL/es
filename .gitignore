@@ -1,0 +1,48 @@
+# ── Sensitive config (credentials) ──────────────────────────────────
+info_config/
+
+# ── Data & binary files ───────────────────────────────────────────────
+excel_files/
+database/
+pic/
+*.xlsx
+*.xls
+*.csv
+*.db
+*.sqlite
+
+# ── Logs ─────────────────────────────────────────────────────────────
+logs/
+
+# ── Sync scripts (excluded from version control) ─────────────────────
+sync/
+
+# ── Backup / temp ────────────────────────────────────────────────────
+original_backup/
+pages/backup/
+config/
+
+# ── Documentation (markdown) ─────────────────────────────────────────
+*.md
+
+# ── Python cache ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── IDE / OS ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
